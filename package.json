@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
     "@types/jest": "^26.0.13",
+    "babel-jest": "^26.3.0",
     "jest": "^26.4.2"
   }
 }
